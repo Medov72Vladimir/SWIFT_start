@@ -15,10 +15,8 @@ var teaPrices: [teaType: Int] = [.earlGrey: 5, .herbalTea: 4, .yellowTea: 3, .oo
 
 let customerOrders: [teaType] = [.earlGrey, .oolong, .yellowTea, .herbalTea, .earlGrey]
 
-var totalCost: Int = 0
 for(index, tea) in customerOrders.enumerated() {
   if let price = teaPrices[tea] {
-    totalCost += price
     print("Cusomter #\(index + 1) will pay \(price) for \(tea)")
   }
 }
