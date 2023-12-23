@@ -39,7 +39,7 @@ class Pizzeria  {
     }
 
      func getAllPizza() → [Pizza] { // получить все доступные пиццы
-        pizzaAll
+        pizza
     }
 }
 
