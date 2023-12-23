@@ -35,11 +35,11 @@ class Pizzeria  {
 //    получения всех доступных пицц.
 
     func setNewPizza(newPizza: Pizza) { // добавить новую пиццу
-        pizzaAll.append(newPizza)
+        pizza.append(newPizza)
     }
 
      func getAllPizza() → [Pizza] { // получить все доступные пиццы
-        return pizzaAll
+        pizzaAll
     }
 }
 
